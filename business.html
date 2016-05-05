@@ -1,0 +1,882 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Black diamond limo llc</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <link href="http://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+  <link href="http://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <style>
+  body {
+      font: 400 15px Lato, sans-serif;
+      line-height: 1.8;
+      color: #fff;
+      position: relative;
+  }
+  h2 {
+      font-size: 24px;
+      text-transform: uppercase;
+      color: #fff;
+      font-weight: 600;
+      margin-bottom: 30px;
+      text-align: center;
+  }
+  .copy{
+    color: #fff;
+  }
+  h4 {
+      font-size: 19px;
+      line-height: 1.375em;
+      color: #fff;
+      font-weight: 400;
+      margin-bottom: 30px;
+  }  
+  .jumbotron {
+      background-color: #4d4d4d;
+      color: #fff;
+      padding: 100px 25px;
+      font-family: Montserrat, sans-serif;
+  }
+  .jumbotron img {
+    height: 200px;
+    width: 100%;
+  }
+  .container-fluid {
+      padding: 60px 50px;
+      height: auto;
+  }
+  .bg-grey {
+      background-color: #f6f6f6;
+  }
+  .logo-small {
+      color: #f4511e;
+      font-size: 50px;
+  }
+  .logo {
+      color: #f4511e;
+      font-size: 200px;
+  }
+  .thumbnail {
+      padding: 0 0 15px 0;
+      border: none;
+      border-radius: 0;
+  }
+  .thumbnail img {
+      width: 100%;
+      height: 100%;
+      margin-bottom: 10px;
+  }
+  .carousel-control.right, .carousel-control.left {
+      background-image: none;
+      color: #f4511e;
+  }
+  .carousel-indicators li {
+      border-color: #f4511e;
+  }
+  .carousel-indicators li.active {
+      background-color: #f4511e;
+  }
+  .item h4 {
+      font-size: 19px;
+      line-height: 1.375em;
+      font-weight: 400;
+      font-style: italic;
+      margin: 70px 0;
+  }
+  .item span {
+      font-style: normal;
+  }
+  .panel {
+      border: 1px solid #f4511e; 
+      border-radius:0 !important;
+      transition: box-shadow 0.5s;
+  }
+  .panel:hover {
+      box-shadow: 5px 0px 40px rgba(0,0,0, .2);
+  }
+  .panel-footer .btn:hover {
+      border: 1px solid #fff;
+      background-color: #fff !important;
+      color: #f4511e;
+  }
+  .panel-heading {
+      color: #fff !important;
+      background-color: #000 !important;
+      padding: 25px;
+      border-bottom: 1px solid transparent;
+      border-top-left-radius: 0px;
+      border-top-right-radius: 0px;
+      border-bottom-left-radius: 0px;
+      border-bottom-right-radius: 0px;
+  }
+  .panel-footer {
+      background-color: white !important;
+  }
+  .panel-footer h3 {
+      font-size: 32px;
+  }
+  .panel-footer h4 {
+      color: #aaa;
+      font-size: 14px;
+  }
+  .panel-footer .btn {
+      margin: 15px 0;
+      background-color: #f4511e;
+      color: #fff;
+  }
+
+   video { 
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      min-width: 100%;
+      min-height: 100%;
+      width: auto;
+      height: auto;
+      z-index: -100;
+      transform: translateX(-50%) translateY(-50%);
+   background: url('') no-repeat;
+    background-size: cover;
+    transition: 1s opacity;
+  }
+
+  img {
+      width: 100%;
+      height: 100%; 
+      margin-bottom: 10px;
+    }
+    #about{
+
+      background:rgba(0,0,0,0.5);
+    }
+     #services {
+
+          background:rgba(0,0,0,0.5);
+  }
+    #fleet {
+
+          background:rgba(0,0,0,0.5);
+    }
+    #myCarousel {
+
+          background:rgba(0,0,0,0.1);
+    }
+    #rates {
+
+          background:rgba(0,0,0,0.4);
+    }
+    #contact {
+
+          background:rgba(0,0,0,0.7);
+    }
+    .item {
+          background:rgba(0,0,0,0.1);
+    }
+
+  .affix {
+      top: 0;
+      width: 100%;
+  }
+
+  .affix + .container-fluid {
+      padding-top: 70px;
+  }
+
+  .navbar {
+      margin-bottom: 0;
+      background-color: #000;
+      z-index: 9999;
+      border: 0;
+      font-size: 12px !important;
+      line-height: 1.42857143 !important;
+      letter-spacing: 4px;
+      border-radius: 0;
+      font-family: Montserrat, sans-serif;
+  }
+  .navbar li a, .navbar .navbar-brand {
+      color: #fff !important;
+  }
+  .navbar-nav li a:hover, .navbar-nav li.active a {
+      color: #000 !important;
+      background-color: #fff !important;
+  }
+  .navbar-default .navbar-toggle {
+      border-color: transparent;
+      color: #fff !important;
+  }
+  footer .glyphicon {
+      font-size: 20px;
+      margin-bottom: 20px;
+      color: #f4511e;
+  }
+  a {
+    color: #000;
+  }
+  .servicePic {
+    width: 300px;
+    height: 300px;
+    border-right: 4em;
+  }
+  .topHead{
+    width: 100%;
+    height: 200px;
+    background-color: #fff;
+  }
+  .glyphicon {
+    color: #fff;
+  }
+  .sidepic {
+    padding-top: 50px;
+  }
+ 
+  .topHead img {
+    height: 100px;
+    width: 100%;
+  }
+  .carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 70%;
+      margin: auto;
+  }
+  .topContainer {
+    background-image: url("/Users/AkilMomin/Desktop/limo/Assets/limowallpaper.jpg");
+    width: 100%;
+    height: 708px;
+
+  }
+  .servicesWrap{
+  display: block;
+  width:90%;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+
+.servicesBlock{
+  width: 48%;
+  margin: 1%;
+  display: block;
+  float: left;
+  text-align: center;
+  color: #fff;
+  position: relative;
+  z-index: 5;
+  overflow: hidden;
+  height: 120px;
+  position: relative;
+  border: solid 2px #00ffff !important;
+ /*box-shadow: 4px 4px 10px #311342;*/
+}
+
+.servicesBlock:hover > img{
+  width: 120%;
+  height: 160px;
+  transition:2s ease-in-out;
+  margin-top: -40px;
+}
+
+.servicesBlock:hover > .paraOverlap{
+  transition:1s;
+  font-weight: normal;
+  margin-top: 95px;
+  padding-top: 1px;
+  text-shadow:#000 1px 1px 2px;
+  width: 100%;
+  background-color: #000;
+  height: 2em;
+}
+
+.servicesBlock img{
+  margin: 0 auto;
+  width: 100%;
+  height: 100%;
+  float: left;
+  height: 120px;
+  transition:1s ease-in-out;
+}
+
+.overlap{
+  background-color: #000;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  opacity: 0.6;
+  top:0;
+  left: 0;
+  transition:1s;
+}
+
+.paraOverlap{
+  transition:1s;
+  position: absolute;
+  color: #fff;
+  width: 100%;
+  height: 100%;
+  letter-spacing: 0.18em;
+  text-align: center;
+  top:0;
+  padding-top: 45px;
+  left: 0;
+  margin: 0 auto;
+  z-index: 10;
+  text-shadow: #000 2px 2px 10px;
+  line-height: 1.5em;
+  font-weight: bold;
+  position: absolute;
+  z-index: 2000;
+}
+
+.servicesBlock:hover > .overlap{
+  opacity: 0.3;
+  transition:1.5s;
+}
+
+
+/*----- */
+
+.servicesBlockA{
+  width: 48%;
+  margin: 1%;
+  display: block;
+  float: left;
+  text-align: center;
+  color: #fff;
+  position: relative;
+  z-index: 5;
+  overflow: hidden;
+  height: 120px;
+  position: relative;
+  border: solid 1px #00ffff;
+}
+
+.servicesBlockA:hover > .paraOverlapA{
+  transition:1s;
+  font-weight: normal;
+  text-shadow:#000 1px 1px 2px;
+  width: 100%;
+  background-color: #000;
+  font-size: 1.5em;
+  height: 2em;
+}
+
+.servicesBlockA img{
+  margin: 0 auto;
+  width: 100%;
+  height: 100%;
+  float: left;
+  height: 120px;
+  transition:1s ease-in-out;
+}
+
+.overlapA{
+  background-color: #000;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  opacity: 0.8;
+  top:0;
+  left: 0;
+  transition:1s;
+}
+
+.paraOverlapA{
+  transition:1s;
+  position: absolute;
+  color: #c3c3c3;
+  width: 100%;
+  height: 100%;
+  letter-spacing: 0.18em;
+  text-align: center;
+  top:0;
+  padding-top: 40px;
+  left: 0;
+  margin: 0 auto;
+  z-index: 10;
+  text-shadow: #000 2px 2px 10px;
+  line-height: 1.5em;
+  font-weight: normal;
+  position: absolute;
+  z-index: 2000;
+}
+
+.servicesBlockA:hover > .overlapA{
+  opacity: 0.5;
+  transition:1.5s;
+}
+.carousel-inner {
+     background:rgba(0,0,0,0.7);
+}
+.tablerow {
+  text-align: center;
+}
+  .slideanim {visibility:hidden;}
+  .slide {
+      animation-name: slide;
+      -webkit-animation-name: slide;	
+      animation-duration: 1s;	
+      -webkit-animation-duration: 1s;
+      visibility: visible;			
+  }
+  @keyframes slide {
+    0% {
+      opacity: 0;
+      -webkit-transform: translateY(70%);
+    } 
+    100% {
+      opacity: 1;
+      -webkit-transform: translateY(0%);
+    }	
+  }
+  @-webkit-keyframes slide {
+    0% {
+      opacity: 0;
+      -webkit-transform: translateY(70%);
+    } 
+    100% {
+      opacity: 1;
+      -webkit-transform: translateY(0%);
+    }
+  }
+  @media screen and (max-width: 768px) {
+    .col-sm-4 {
+      text-align: center;
+      margin: 25px 0;
+    }
+    .btn-lg {
+        width: 100%;
+        margin-bottom: 35px;
+    }
+  }
+  @media screen and (max-width: 480px) {
+    .logo {
+        font-size: 150px;
+    }
+  }
+  </style>
+</head>
+
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+<div class="container-fluid topHead" >
+ 
+  <img src="/Users/AkilMomin/Desktop/logo2.jpg"> 
+</div>
+
+
+<nav class="navbar navbar-default" data-spy="affix" data-offset-top="207">
+
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#myPage">WELCOME</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#about">ABOUT</a></li>
+        <li><a href="#services">SERVICES</a></li>
+        <li><a href="#fleet">FLEET</a></li>
+        <li><a href="#rates">RATES</a></li>
+        <li><a href="#contact">CONTACT</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+  <video autoplay  poster="/Users/AkilMomin/Desktop/background3.jpg" id="bgvid" loop>
+         <!-- WCAG general accessibility recommendation is that media such as background video play through only once. Loop turned on for the purposes of illustration; if removed, the end of the video will fade in the same way created by pressing the "Pause" button  -->
+        <source src="Assets/limobeach.webm" type="video/webm">
+        <source src="Assets/limobeach.mp4" type="video/mp4">
+  </video>
+<!--home page 
+ 
+  
+  
+
+
+<!-- Container (About Section) -->
+<div id="about" class="container-fluid">
+<div class="col-sm-4">
+      <h1><marquee behavior="alternate">About Us</marquee></h1><br>
+      
+    </div>
+  <div class="row">
+
+    <div class="col-sm-8">
+    <hr>
+      <p>Black Diamond Limo, LLC would like to personally thank you for inquiring about our services. We can assure you that you will not be displeased with any of the services that we provide. Our company takes pride in providing the highest quality transportation in the area as well as all surrounding areas. Our growing fleet is operated with you in mind from start to park.</p><p> Black Diamond Limo, LLC aims to please and we are open to any request that you may have. Our limos and shuttle vehicles are all equipped to handle most any request that comes our way. We encourage you to contact us today and give Black Diamond Limo, LLC the opportunity to meet your transport needs. With competitive rates, rare fleet vehicles, and exceptional service we guarantee 100% customer satisfaction</p>
+      <br><button class="btn btn-success btn-lg"> <a href="#contact"> Call Today and ask about our special offer and package!</a> </button>
+    </div>
+    <div class="col-sm-4 sidepic" >
+    <img src="Assets/satisfaction.jpg">
+    </div>
+  </div>
+</div>
+
+        <div class="testomany">
+          <h2>What our customers say</h2>
+          <div id="Carousel" class="carousel slide text-center" data-ride="carousel" >
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+              <li data-target="#Carousel" data-slide-to="0" class="active"></li>
+              <li data-target="#Carousel" data-slide-to="1"></li>
+              <li data-target="#Carousel" data-slide-to="2"></li>
+            </ol>
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner" role="listbox">
+              <div class="item active">
+                <h4>"The service was above and beyond what I could have expected. Great job!"<br><span style="font-style:normal;">- Kelly D., Bryan, Texas</span></h4>
+              </div>
+              <div class="item">
+                <h4>"One word... WOW!!"<br><span style="font-style:normal;">John Doe, Collegestation, TX</span></h4>
+              </div>
+              <div class="item">
+                <h4>"We were able to get our wedding day booked at the last minute at a reasonable rate. Thank you so much!"  <br><span style="font-style:normal;"> - Michelle & Jackson, Bryan, Texas</span></h4>
+              </div>
+            </div>
+
+            <!-- Left and right controls -->
+            <a class="left carousel-control" href="#Carousel" role="button" data-slide="prev">
+              <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#Carousel" role="button" data-slide="next">
+              <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+            </div>
+          </div>
+        </div>
+
+
+<!-- Container (Services Section) -->
+<div id="services" class="container-fluid text-center">
+  <h1>SERVICES</h1>
+  <hr>
+  <h4>What we offer</h4>
+  <br>
+  
+    <div class="servicesWrap slideanim">
+
+                                <a href="wedding-limousine-service-riverside-los-angeles-inland-empire-orange-county-california">
+                                 <div class="servicesBlock">
+                                 <img src="Assets/wedding.jpg" alt="Wedding">
+                                <div class="overlap"></div>
+                                <p class="paraOverlap">WEDDINGS</p>
+                                </div>
+                                </a>
+
+                                <a href="prom-limousine-riverside-california-fontana-orange-county-inland-empire-prom-limo">
+                                 <div class="servicesBlock">
+                                 <img src="Assets//prom.jpg" alt="Prom">
+                                <div class="overlap"></div>
+                                <p class="paraOverlap">PROM LIMO</p>
+                                </div>
+                                </a>
+
+
+                                <a href="birthday-limousine-anniversary-limo-party-bus-los-angeles-riverside-california">
+                                 <div class="servicesBlock">
+                                 <img src="Assets/birthday.jpg" alt="Limousine for Birthday or Anniversary">
+                                <div class="overlap"></div>
+                                <p class="paraOverlap">BIRTHDAY / ANNIVERSARY</p>
+                                </div>
+                                </a>
+                                
+                            
+
+                                <a href="quinceanera-limousine-sweet-sixteen-party-bus-los-angeles-riverside-california">
+                                 <div class="servicesBlock">
+                                 <img src="Assets/quinceanera.jpg" alt="Quinceanera">
+                                <div class="overlap"></div>
+                                <p class="paraOverlap">QUINCEANERA</p>
+                                </div>
+                                </a>
+
+                                <a href="bachelor-party-limousine-party-bus-packages-los-angeles-riverside-california">
+                                 <div class="servicesBlock">
+                                 <img src="Assets/party.jpg" alt="Limousine for Bachelor Party">
+                                <div class="overlap"></div>
+                                <p class="paraOverlap">BACHELOR PARTY</p>
+                                </div>
+                                </a>
+
+
+                                <a href="corporate-transportation-limousine-vip-transfers-los-angeles-riverside-california">
+                                <div class="servicesBlock">
+                                <img src="Assets/corporate.jpg" alt="Airport transfers">
+                                <div class="overlap"></div>
+                                <p class="paraOverlap">CORPORATE TRANSPORTATION</p>
+                                </div>
+                                </a>
+
+                                <a href="airport-limousine-transport-la-airport-limousine-riverside-california-vip-airport-transport">
+                                 <div class="servicesBlock">
+                                 <img src="Assets/airport1.jpg" alt="corporate transfers">
+                                <div class="overlap"></div>
+                                <p class="paraOverlap">AIRPORT TRANSPORTATION</p>
+                                </div>
+                                </a>
+                   
+
+                                 <a href="limousine-special-service-customized-limo-package-la-riverside-ca">
+                                 <div class="servicesBlock">
+                                 <img src="Assets/personal.jpg" alt="Rent a limousine for special events">
+                                <div class="overlap"></div>
+                                <p class="paraOverlap">SPECIAL SERVICES</p>
+                                </div>
+                                </a>
+
+                            
+
+                                 
+
+                        </div>
+</div>
+
+<!-- Container (Portfolio Section) -->
+<div id="fleet" class="container-fluid text-center bg-grey">
+  <h1>Fleet</h1><br><hr>
+  <h3>Check out our rides</h3> <br> <br>
+     <div id="myCarousel" class="carousel carousel-slide" data-ride="carousel" data-interval="1500">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+              <li data-target="#Carousel" data-slide-to="0" class="active"></li>
+              <li data-target="#Carousel" data-slide-to="1"></li>
+              <li data-target="#Carousel" data-slide-to="2"></li>
+              <li data-target="#Carousel" data-slide-to="3"></li>
+              <li data-target="#Carousel" data-slide-to="4"></li>
+              <li data-target="#Carousel" data-slide-to="5"></li>
+              <li data-target="#Carousel" data-slide-to="6"></li>
+              <li data-target="#Carousel" data-slide-to="7"></li>
+              <li data-target="#Carousel" data-slide-to="8"></li>
+            </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+      <div class="item active">
+        <img src="Assets/limopic.jpg" alt="Chania" width="460" height="345">
+      </div>
+
+      <div class="item">
+        <img src="Assets/limo2.jpg" alt="Chania" width="460" height="345">
+      </div>
+    
+      <div class="item">
+        <img src="Assets/limo3.jpg" alt="Flower" width="460" height="345">
+      </div>
+
+      <div class="item">
+        <img src="Assets/limo4.jpg" alt="Flower" width="460" height="345">
+      </div>
+
+      <div class="item">
+        <img src="Assets/limo4.jpg" alt="Flower" width="460" height="345">
+      </div>
+
+      <div class="item">
+        <img src="Assets/limo3.jpg" alt="Flower" width="460" height="345">
+      </div>
+
+      <div class="item">
+        <img src="Assets/limo2.jpg" alt="Flower" width="460" height="345">
+      </div>
+
+      <div class="item">
+        <img src="Assets/limo4.jpg" alt="Flower" width="460" height="345">
+      </div>
+
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+  <br>
+  
+</div>
+
+
+<!-- Container (Pricing Section) -->
+<div id="rates" class="container-fluid">
+  <div class="text-center">
+    <h1>Rates</h1>
+    <hr>
+    <h4>Choose a payment plan that works for you</h4>
+  </div>
+      <div class="slideanim">
+        <table id="tablepress-1" class="tablepress tablepress-id-1">
+            
+            <div class="row tablerow">
+              <div class="col-sm-4"><h3><strong>Vehicle</strong></h3></div>
+              <div class="col-sm-4"><h3><strong>Number of Passengers</strong></h3></div>
+              <div class="col-sm-4"><h3><strong>Rate</strong></h3></div>
+            </div> 
+            <div class="row tablerow">
+              <div class="col-sm-4">Luxury Suburban</div>
+              <div class="col-sm-4">7</div>
+              <div class="col-sm-4">$70 per hour</div>
+            </div>
+            <div class="row tablerow">
+              <div class="col-sm-4">Avalanche</div>
+              <div class="col-sm-4">4</div>
+              <div class="col-sm-4">$60 per hour</div>
+            </div>
+            <div class="row tablerow">
+              <div class="col-sm-4">Stretch Limousine</div>
+              <div class="col-sm-4">8</div>
+              <div class="col-sm-4">$110 per hour</div>
+            </div>
+            <div class="row tablerow">
+              <div class="col-sm-4">Chrysler 300 Limousine</div>
+              <div class="col-sm-4">12</div>
+              <div class="col-sm-4">$120 per hour</div>
+            </div>
+            <div class="row tablerow">
+              <div class="col-sm-4">Passenger Van</div>
+              <div class="col-sm-4">14</div>
+              <div class="col-sm-4">$75 per hour</div>
+            </div>
+            <div class="row tablerow">
+              <div class="col-sm-4">Mercedes Sprinter</div>
+              <div class="col-sm-4">11</div>
+              <div class="col-sm-4">$160 per hour</div>
+            </div>
+            <div class="row tablerow">
+              <div class="col-sm-4">Stretch Excursion Limousine</div>
+              <div class="col-sm-4">16</div>
+              <div class="col-sm-4">$120 per hour</div>
+            </div>
+            <div class="row tablerow">
+              <div class="col-sm-4">Stretch Hummer Limousine</div>
+              <div class="col-sm-4">18</div>
+              <div class="col-sm-4">$160 per hour</div>
+            </div>
+            <div class="row tablerow">
+              <div class="col-sm-4">Stretch Escalade Limousine</div>
+              <div class="col-sm-4">18</div>
+              <div class="col-sm-4">$160 per hour</div>
+           </div>
+            <div class="row tablerow">
+              <div class="col-sm-4">Limo Bus</div>
+              <div class="col-sm-4">20</div>
+              <div class="col-sm-4">$160 per hour</div>
+            </div>
+            <div class="row tablerow">
+              <div class="col-sm-4">Limo Bus</div>
+              <div class="col-sm-4">30</div>
+              <div class="col-sm-4">$220 per hour</div>
+            </div>
+            <div class="row tablerow">
+              <div class="col-sm-4">Limo Bus</div>
+              <div class="col-sm-4">35</div>
+              <div class="col-sm-4">$240 per hour</div>
+            </div>
+            <div class="row tablerow">
+              <div class="col-sm-4">Shuttle Bus</div>
+              <div class="col-sm-4">28</div>
+              <div class="col-sm-4">$140 per hour</div>
+            </div>
+            <div class="row tablerow">
+              <div class="col-sm-4">Motor Coach</div>
+              <div class="col-sm-4">56</div>
+              <div class="col-sm-4">$200 per hour</div>
+            </div>
+            
+      </table>
+  </div>
+</div>
+
+<!-- Container (Contact Section) -->
+<div id="contact" class="container-fluid bg-grey">
+  <h1 class="text-center">CONTACT</h1>
+  <hr>
+  <div class="row">
+    <div class="col-sm-5">
+      <p>Contact us and we'll get back to you within 24 hours.</p>
+      <p><span class="glyphicon glyphicon-map-marker"></span> Bryan, TX</p>
+      <p><span class="glyphicon glyphicon-phone"></span> 979 777 6512</p>
+      <p><span class="glyphicon glyphicon-envelope"></span> thomas@blackdiamondlimollc.com</p>	   
+    </div>
+    <div class="col-sm-7 slideanim">
+      <div class="row">
+        <div class="col-sm-12 form-group">
+          <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
+        </div>
+        <br>
+        <div class="col-sm-12 form-group">
+          <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
+        </div>
+        <br>
+        <div class="col-sm-12 form-group">
+          <input class="form-control" id="number" name="phone number" placeholder="Phone-number" type="tel" required>
+        </div>
+        <br>
+      </div>
+      <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea><br>
+      <div class="row">
+        <div class="col-sm-12 form-group">
+          <button class="btn btn-success btn-block pull-right" type="submit">Send</button>
+        </div>
+      </div>	
+    </div>
+  </div>
+</div>
+
+
+
+
+<footer class="container-fluid text-center">
+  <a href="#myPage" title="To Top">
+    <span class="glyphicon glyphicon-chevron-up"></span>
+  </a>
+  <p class="copy"> &copy  Black Diamond Limo LLC  All Rights Reserved</p>		
+</footer>
+
+<script>
+$(document).ready(function(){
+  // Add smooth scrolling to all links in navbar + footer link
+  $(".navbar a, footer a[href='#myPage']").on('click', function(event) {
+
+    // Prevent default anchor click behavior
+    event.preventDefault();
+
+    // Store hash
+    var hash = this.hash;
+
+    // Using jQuery's animate() method to add smooth page scroll
+    // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
+    $('html, body').animate({
+      scrollTop: $(hash).offset().top
+    }, 900, function(){
+   
+      // Add hash (#) to URL when done scrolling (default click behavior)
+      window.location.hash = hash;
+    });
+  });
+  
+  $(window).scroll(function() {
+    $(".slideanim").each(function(){
+      var pos = $(this).offset().top;
+
+      var winTop = $(window).scrollTop();
+        if (pos < winTop + 600) {
+          $(this).addClass("slide");
+        }
+    });
+  });
+})
+</script>
+
+</body>
+</html>
